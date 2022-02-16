@@ -56,7 +56,7 @@
 		$(this).html(event.strftime(format));
 	})
 	.on('finish.countdown', function(event) {
-	$(this).html('This offer has expired!')
+	$(this).html('You can Register know')
 		.parent().addClass('disabled');
     });
 
